@@ -38,7 +38,7 @@ fun DependencyHandlerScope.test() {
   testImplementation ("junit:junit:4.12")
 //  testImplementation ("org.mockito:mockito-core:4.3.1")
   testImplementation ("org.mockito.kotlin:mockito-kotlin:4.0.0")
-
+  testImplementation ("io.mockk:mockk:1.12.0")
 }
 
 private const val implementation = "implementation"

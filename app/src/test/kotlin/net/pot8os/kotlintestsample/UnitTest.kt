@@ -11,7 +11,7 @@ class UnitTest {
 
     @Test
     fun `test click add all`() {
-        val viewModel = CalculatorViewModel()
+        val viewModel = mockk<CalculatorViewModel>()
         val calculator = mockk<Calculator>()
 
         coEvery { calculator.sumImpl(any(), any()) } returns 10
