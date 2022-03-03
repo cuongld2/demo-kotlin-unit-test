@@ -31,12 +31,14 @@ fun DependencyHandlerScope.test() {
   debugImplementation("androidx.test.ext:junit-ktx:1.1.1")
   // Regarding robolectric, only test target is sufficient.
   testImplementation("org.robolectric:robolectric:4.3.1")
-  testImplementation ("org.mockito.kotlin:mockito-kotlin:4.0.0")
+//  testImplementation ("org.mockito.kotlin:mockito-kotlin:4.0.0")
   // required if you want to use Mockito for unit tests
   // https://mvnrepository.com/artifact/org.mockito/mockito-android
-  testImplementation ("org.mockito:mockito-android:4.3.1")
+//  testImplementation ("org.mockito:mockito-android:4.3.1")
   testImplementation ("junit:junit:4.12")
-  testImplementation ("org.mockito:mockito-core:4.3.1")
+//  testImplementation ("org.mockito:mockito-core:4.3.1")
+  testImplementation ("org.mockito.kotlin:mockito-kotlin:4.0.0")
+
 }
 
 private const val implementation = "implementation"
