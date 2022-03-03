@@ -17,7 +17,7 @@ dependencies {
   // required if you want to use Mockito for unit tests
   // https://mvnrepository.com/artifact/org.mockito/mockito-android
   testImplementation ("org.mockito:mockito-android:4.3.1")
-  implementation ("junit:junit:4.12")
-  implementation ("org.mockito:mockito-core:4.3.1")
+  testImplementation ("junit:junit:4.12")
+  testImplementation ("org.mockito:mockito-core:4.3.1")
 
 }
