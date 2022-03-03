@@ -1,0 +1,1 @@
+D:\Projects\Personal\demo-kotlin-unit-test\buildSrc\build\classes\kotlin\main\DependenciesKt.class
